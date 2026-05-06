@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cozy Corner Café</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+    <h1>Bandar Cafe</h1>
+    <p id="welcomeText">Welcome! We serve the best kampong cafe espresso in town.</p>
+</header>
+
+<h2>About Our Café</h2>
+<p>we provie kopi2</p>
+<blockcode>"We are located in the heart of the city, offering a cozy atmosphere for coffee lovers to enjoy their favorite brews" - avarage enjoyer</blockcode>
+
+<h3>find us at google maps</h3>
+<a href="https://google.com" target="_blank">
+Visit us on Maps
+</a>
+
+<img src="latte1.jpg" alt="Our Café">
+
+<div class="menu-box">
+    <h2>Our Menu</h2>
+    <p onclick="selectItem('Cappuccino')">Cappuccino - $2</p>
+    <p onclick="selectItem('Latte')">Latte - $4</p>
+    <p onclick="selectItem('Cold Coffee')">Cold Coffee - $2.50</p>
+    <p onclick="selectItem('Chocolate Shake')">Chocolate Shake - $3.50</p>
+</div>
+
+<p id="selectedItem">Click an item to select</p>
+
+<h2>Order Section</h2>
+
+<button onclick="alert('Order placed!')">Order Now</button>
+
+<button onclick="orderCoffee()">Order Latte</button>
+
+<button onclick="changeText()">Change Special Message</button>
+
+<p id="message" class="special">
+Today’s Special: Buy 1 Latte and get 1 Cookie free!
+</p>
+
+<h2>Personal Order</h2>
+
+<input type="text" id="name" placeholder="Enter your name">
+
+<button onclick="greet()">Submit</button>
+
+<h2>Bill Calculator</h2>
+
+<input type="number" id="price" placeholder="Enter price">
+<input type="number" id="quantity" placeholder="Enter quantity">
+
+<br><br>
+
+<button onclick="calculateBill()">Calculate Bill</button>
+
+<p id="billResult">Your bill will appear here.</p>
+
+<h2>Feedback</h2>
+
+<input type="text" id="feedback" placeholder="Write feedback">
+
+<button onclick="submitFeedback()">Submit Feedback</button>
+
+<p id="feedbackMsg"></p>
+
+<footer>
+    <p>Thank you for visiting Bandar Cafe ☕</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

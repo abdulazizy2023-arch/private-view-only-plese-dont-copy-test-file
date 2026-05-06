@@ -1,0 +1,103 @@
+body {
+    background-color: #533e30;
+    font-family: Georgia;
+    text-align: center;
+    color: white;
+    margin: 0;
+    transition: 0.3s;
+}
+
+header {
+    background-color: #1f0f05;
+    padding: 25px;
+}
+
+h1 {
+    color: #d32da7;
+    font-size: 42px;
+}
+
+h2 {
+    color: #C17F4A;
+}
+
+p {
+    font-size: 18px;
+    color: #E8C99A;
+}
+
+a {
+    color: #C17F4A;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+img {
+    width: 450px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+button {
+    background: #C17F4A;
+    padding: 12px 25px;
+    border: none;
+    color: #2C1A0E;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E8C99A;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+}
+
+.menu-box {
+    background: linear-gradient(135deg, #cfa183, #5d2000);
+    width: 60%;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid #a38872;
+    box-shadow: 0 0 20px #e9e5e2;
+    transition: 0.3s;
+}
+
+.menu-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px #ddd1d0;
+}
+
+.menu-box p {
+    cursor: pointer;
+}
+
+.menu-box p:hover {
+    color: yellow;
+}
+
+.special {
+    color: #b30830;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #1f0f05;
+    padding: 15px;
+    margin-top: 30px;
+}
